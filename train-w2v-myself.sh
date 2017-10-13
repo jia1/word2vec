@@ -1,0 +1,2 @@
+nohup time ./word2vec -train wikiLatest.txt -output w2v-800-wikiLatest.bin -cbow 0 -size 800 -window 10 -negative 10 -hs 0 -sample 1e-4 -threads 20 -binary 1 -iter 15 &> nohup-train-w2v-800-wikiLatest.out &
+# nohup time ./word2vec -train ../embedding/word2vec/enwikiFeb2017.txt -output w2v-800-wikiFeb2017.bin -cbow 0 -size 800 -window 10 -negative 10 -hs 0 -sample 1e-4 -threads 20 -binary 1 -iter 15 &> nohup-train-w2v-800-wikiFeb2017.out &
